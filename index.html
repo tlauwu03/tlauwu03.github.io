@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tiffany Lau Wu - Portfolio</title>
+
+  <style>
+    /* This sets the font and background for the whole page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* The top navigation bar */
+    nav {
+      background-color: #2c3e50;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      color: white;
+      margin: 0;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Each section of the page */
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      border: 1px solid #dddddd;
+    }
+
+    /* Section headings */
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 8px;
+      margin-top: 0;
+    }
+
+    /* The intro/hero area at the top */
+    #hero {
+      text-align: center;
+      padding: 50px 30px;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    #hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    #hero p {
+      font-size: 18px;
+      color: #cccccc;
+    }
+
+    #hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+    #hero a:hover {
+      background-color: #219a52;
+    }
+
+    /* Skills list */
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills-list li {
+      background-color: #eaf4fb;
+      color: #2c3e50;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid #aed6f1;
+      font-size: 14px;
+    }
+
+    /* Project cards */
+    .project {
+      border: 1px solid #dddddd;
+      border-radius: 6px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .project p {
+      color: #555555;
+      font-size: 14px;
+    }
+
+    .project a {
+      color: #27ae60;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contact section */
+    #contact p {
+      font-size: 15px;
+      color: #555;
+    }
+
+    #contact a {
+      color: #27ae60;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAV BAR -->
+  <nav>
+    <h1>Tiffany Lau Wu</h1>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO: the first thing people see -->
+  <div id="hero">
+    <h1>Hi, I'm Tiffany Lau Wu 👋</h1>
+    <p>CS Student | Aspiring Software Engineer</p>
+    <a href="#projects">See My Work</a>
+  </div>
+
+  <!-- ABOUT ME -->
+  <section id="about">
+    <h2>About Me</h2>
+    <!-- ✏️ Write 2-3 sentences about yourself here -->
+    <p>
+      Hi! I'm a Computer Science student at <strong>Brooklyn College</strong>.
+      I'm just getting started with coding and I'm really enjoying learning how to build things.
+      I'm looking for an internship where I can learn and grow as a developer.
+    </p>
+    <p>Outside of coding, I enjoy playing sports and being active.</p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Here are some of the tools and languages I've been learning:</p>
+    <!-- ✏️ Add or remove skills from this list -->
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>Git</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Here are some things I've built so far:</p>
+
+    <!-- ✏️ PROJECT 1 - replace with your real project -->
+    <div class="project">
+      <h3>Project Name</h3>
+      <p>A short description of what this project does. What did you build? Why? What did you learn?</p>
+      <a href="#">View on GitHub →</a>
+    </div>
+
+    <!-- ✏️ PROJECT 2 -->
+    <div class="project">
+      <h3>Another Project</h3>
+      <p>Describe your second project here. Even small class projects or practice exercises count!</p>
+      <a href="#">View on GitHub →</a>
+    </div>
+
+    <!-- ✏️ PROJECT 3 - this portfolio counts as a project! -->
+    <div class="project">
+      <h3>This Portfolio Website</h3>
+      <p>Built this portfolio using HTML and CSS to practice my web development skills.</p>
+      <a href="#">View on GitHub →</a>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>I'm looking for internship opportunities! Feel free to reach out:</p>
+    <!-- ✏️ Replace with your real email and links -->
+    <p>📧 Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>💼 LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+    <p>🐙 GitHub: <a href="#">github.com/yourname</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made by Tiffany Lau Wu · 2025</p>
+  </footer>
+
+</body>
+</html>
